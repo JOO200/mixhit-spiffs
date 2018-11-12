@@ -1,0 +1,3 @@
+[submodule "spiffs/web"]
+	path = spiffs/web
+	url = https://github.com/DrStealth126/MixHit-Web.git
