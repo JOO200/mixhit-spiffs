@@ -1,0 +1,102 @@
+{
+  "CocktailListe": {
+    "AlkoholischeCocktails": [
+      {
+        "Cocktail": {
+          "Name": "Wodka-Maracuja",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 75
+            },
+            {
+              "Zutat": "Wodka",
+              "Anteil": 25
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Malibu-Maracuja",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 66
+            },
+            {
+              "Zutat": "Malibu",
+              "Anteil": 34
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Malibu-Orange",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 75
+            },
+            {
+              "Zutat": "Malibu",
+              "Anteil": 25
+            }
+          ]
+        }
+      }
+    ],
+    "AlkoholfreieCocktails": [
+      {
+        "Cocktail": {
+          "Name": "Maracuja",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 100
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Orange",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 100
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Taifruitpunch",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 31
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 31
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 26
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 6
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 6
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

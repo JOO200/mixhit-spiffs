@@ -1,0 +1,686 @@
+{
+  "CocktailListe": {
+    "AlkoholischeCocktails": [
+      {
+        "Cocktail": {
+          "Name": "Wodka-Maracuja",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 75
+            },
+            {
+              "Zutat": "Wodka",
+              "Anteil": 25
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Malibu-Maracuja",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 66
+            },
+            {
+              "Zutat": "Malibu",
+              "Anteil": 34
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Malibu-Orange",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 75
+            },
+            {
+              "Zutat": "Malibu",
+              "Anteil": 25
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Malibu-Sunrise",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 66
+            },
+            {
+              "Zutat": "Malibu",
+              "Anteil": 22
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 12
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Screwdriver",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 71
+            },
+            {
+              "Zutat": "Wodka",
+              "Anteil": 29
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Tropic-Thunder",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 66
+            },
+            {
+              "Zutat": "Malibu",
+              "Anteil": 22
+            },
+            {
+              "Zutat": "Wodka",
+              "Anteil": 12
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Mimi",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Ananas",
+              "Anteil": 44
+            },
+            {
+              "Zutat": "Malibu",
+              "Anteil": 12
+            },
+            {
+              "Zutat": "Wodka",
+              "Anteil": 44
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Pink-Pussycat",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Ananas",
+              "Anteil": 70
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 5
+            },
+            {
+              "Zutat": "Wodka",
+              "Anteil": 25
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Safari",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Wodka",
+              "Anteil": 50
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 50
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "San-Francisco",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Ananas",
+              "Anteil": 24
+            },
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 24
+            },
+            {
+              "Zutat": "Wodka",
+              "Anteil": 19
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 14
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 9
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 5
+            },
+            {
+              "Zutat": "Banane",
+              "Anteil": 5
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "The-Waikiki",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Ananas",
+              "Anteil": 96
+            },
+            {
+              "Zutat": "Wodka",
+              "Anteil": 4
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Brassmonkey",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 83
+            },
+            {
+              "Zutat": "Wodka",
+              "Anteil": 17
+            }
+          ]
+        }
+      }
+    ],
+    "AlkoholfreieCocktails": [
+      {
+        "Cocktail": {
+          "Name": "Maracuja",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 100
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Orange",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 100
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Taifruitpunch",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 31
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 31
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 26
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 6
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 6
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Tropic-Sunrise",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Banane",
+              "Anteil": 45
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 22
+            },
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 22
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 11
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Lemon-Cocktail",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 66
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 34
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Sixteen",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 45
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 22
+            },
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 11
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 11
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 11
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Redone",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 42
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 42
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 8
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 8
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Planterswonder",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 28
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 27
+            },
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 27
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 9
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 9
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Targa",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 33
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 33
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 2
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 16
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 16
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Bananajack",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Banane",
+              "Anteil": 17
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 17
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 43
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 23
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Bora-Bora",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Ananas",
+              "Anteil": 11
+            },
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 67
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 11
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 11
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Drachenblut",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Kirsche",
+              "Anteil": 40
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 40
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 10
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 10
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Kiba",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Banane",
+              "Anteil": 50
+            },
+            {
+              "Zutat": "Kirsche",
+              "Anteil": 50
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Luckydriver",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 50
+            },
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 25
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 13
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 12
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Ananas-Orange",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Ananas",
+              "Anteil": 57
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 43
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Babouin",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Kirsche",
+              "Anteil": 32
+            },
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 25
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 25
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 12
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 6
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Ballerina",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Ananas",
+              "Anteil": 34
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 33
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 33
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Cinderella",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 35
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 35
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 30
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Sweetvictory",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Kirsche",
+              "Anteil": 82
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 2
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 8
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 8
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Mix-Sweety",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Ananas",
+              "Anteil": 44
+            },
+            {
+              "Zutat": "Orange",
+              "Anteil": 44
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 12
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Tropic-Star",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 34
+            },
+            {
+              "Zutat": "Maracuja",
+              "Anteil": 33
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 33
+            }
+          ]
+        }
+      },
+      {
+        "Cocktail": {
+          "Name": "Tropical-Orange",
+          "Inhaltsstoffe": [
+            {
+              "Zutat": "Orange",
+              "Anteil": 42
+            },
+            {
+              "Zutat": "Ananas",
+              "Anteil": 42
+            },
+            {
+              "Zutat": "Zitrone",
+              "Anteil": 8
+            },
+            {
+              "Zutat": "Grenadine",
+              "Anteil": 8
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

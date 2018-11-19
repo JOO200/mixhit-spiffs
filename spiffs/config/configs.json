@@ -1,0 +1,20 @@
+{
+  "configs": [
+      {
+        "Name": "wifi",
+        "Pfad": "wifi.json"
+      },
+      {
+        "Name": "cocktails",
+        "Pfad": "cocktails.json"
+      },
+      {
+        "Name": "glasses",
+        "Pfad": "glasses.json"
+      },
+      {
+        "Name": "reservoir",
+        "Pfad": "reservoir.json"
+      }
+    ]
+}
