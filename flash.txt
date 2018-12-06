@@ -1,1 +1,4 @@
+python C:/msys32/home/Johannes/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port COM12 --baud 115200 write_flash -z 0x210000 spiffs.bin
+
+Arduino:
 python C:/msys32/home/Johannes/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port COM12 --baud 115200 write_flash -z 0x291000 spiffs.bin

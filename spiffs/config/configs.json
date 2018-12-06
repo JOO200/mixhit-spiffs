@@ -15,6 +15,10 @@
       {
         "Name": "reservoir",
         "Pfad": "reservoir.json"
-      }
+      },
+	  {
+		"Name": "webconfig",
+		"Pfad": "web.json"
+	  }
     ]
 }
