@@ -1,0 +1,4 @@
+{"numberUsers":"numberUsers" , "numberQueue":"numberQueue" , "currentOrder":"currentOrder" , "orderList" : [{"orderListInhalt":"orderListInhalt1"},{"orderListInhalt":"orderListInhalt2"}] ,
+ "tableOne":"tableOneInhalt" , "tableTwo":"tableTwoInhalt" , "tableThree":"tableThreeInhalt" , "tableFour":"tableFourInhalt" , "tableFive":"tableFiveInhalt" ,
+ "consumptionList" : [{"consumptionListInhalt":"consumptionListInhalt1"}, {"consumptionListInhalt":"consumptionListInhalt2"}] }
+		

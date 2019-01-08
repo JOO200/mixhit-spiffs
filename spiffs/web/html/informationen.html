@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MixHit - ESP32 - Webserver</title>
+    <link rel='stylesheet' href='../style/style.css'/>
+    <script src="../js/mixhit_informationen.js"></script>
+</head>
+
+<body class="row">
+    <header class="col-9 m1-col-12">
+        <h1>Informationen MixHit</h1>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-info justify-content-between">
+                        <strong> Bestellinformationen MixHit</strong>
+                    </li>
+                    <li class="list-group-item justify-content-between"> Angemeldete User
+                        <span class="mybadge myright margin-right" id="numberUser">1</span>
+                    </li>
+                    <li class="list-group-item justify-content-between"> Warteschlange
+                        <span class="mybadge myright margin-right" id="numberQueue">0</span>
+                    </li>
+                    <li class="list-group-item justify-content-between"> Aktuelle Bestellnummer
+                        <span class="mybadge myright margin-right" id="currentOrder">0</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-group" id="orderList">
+                    <li class="list-group-item list-group-item-info justify-content-between">
+                        <strong> Meine Bestellungen</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-info justify-content-between">
+                        <strong> Drehteller</strong>
+                    </li>
+                    <li class="list-group-item justify-content-between" id="tableOne">1:</li>
+                    <li class="list-group-item justify-content-between" id="tableTwo">2:</li>
+                    <li class="list-group-item justify-content-between" id="tableThree">3:</li>
+                    <li class="list-group-item justify-content-between" id="tableFour">4:</li>
+                    <li class="list-group-item justify-content-between" id="tableFive">5:</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-group" id="consumptionList">
+                    <li class="list-group-item list-group-item-info justify-content-between">
+                        <strong> Verbrauch</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="btn btn-primary btn-block" onclick="get_new_information()">Informationen aktuallisieren</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <a href="/html/index.html" class="btn btn-primary btn-block">Zurück zur Startseite</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="col-12 footerstyle">
+        <p>Mix-Hit Wintersemester 2018/19</p>
+    </footer>
+</body>
+
+</html>

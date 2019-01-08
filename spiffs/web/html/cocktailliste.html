@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MixHit - ESP32 - Webserver</title>
+    <link rel='stylesheet' href='../style/style.css'/>
+    <script src="../js/mixhit_cocktaillist.js"></script>
+</head>
+<body class="row">
+    <header class="col-9 m1-col-12">
+        <h1>Cocktailliste</h1>
+        <p>Alle verfügbaren Cocktails mit und ohne Alkohol.</p>
+    </header>
+    
+    <main>
+        <div id="btnAlk">
+            <a href="#btnAlkFree"><button class="btn col-3 m2-col-4">Alkoholfrei</button></a>
+        </div>
+
+        <h2>Cocktails mit Alkohol</h2>
+        <div id="listAlk">
+            <ul>
+                <li>
+                    <div class="col-12">
+                        <div class="col-7 m2-col-4" id="listDiv">
+                            <h3>Cocktail 1</h3>
+                            <p>Liste mit Inhaltsstoffen</p>
+                        </div>
+                        <button class="btn col-2 m2-col-3" onclick="small_button_click()">120 ml</button>
+                        <button class="btn col-2 m2-col-3" onclick="big_button_click()">250 ml</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-12">
+                        <div class="col-7 m2-col-4" id="listDiv">
+                            <h3>Cocktail 2</h3>
+                            <p>Liste mit Inhaltsstoffen</p>
+                        </div>
+                        <button class="btn col-2 m2-col-3" onclick="small_button_click()">120 ml</button>
+                        <button class="btn col-2 m2-col-3" onclick="big_button_click()">250 ml</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="btnAlkFree">
+            <a href="#btnAlk"><button class="btn col-3 m2-col-4">Alkohol</button></a>
+        </div>
+
+        <h2>Cocktails ohne Alkohol</h2>
+
+        <div id="listAlkFree">
+            <ul>
+                <li>
+                    <div class="col-12">
+                        <div class="col-7 m2-col-4" id="listDiv">
+                            <h3>Cocktail 1</h3>
+                            <p>Liste mit Inhaltsstoffen</p>
+                        </div>
+                        <button class="btn col-2 m2-col-3" onclick="small_button_click()">120 ml</button>
+                        <button class="btn col-2 m2-col-3" onclick="big_button_click()">250 ml</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-12">
+                        <div class="col-7 m2-col-4" id="listDiv">
+                            <h3>Cocktail 2</h3>
+                            <p>Liste mit Inhaltsstoffen</p>
+                        </div>
+                        <button class="btn col-2 m2-col-3" onclick="small_button_click()">120 ml</button>
+                        <button class="btn col-2 m2-col-3" onclick="big_button_click()">250 ml</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer class="col-12 footerstyle">
+        <p>Mix-Hit Wintersemester 2018/19</p>
+    </footer>
+</body>

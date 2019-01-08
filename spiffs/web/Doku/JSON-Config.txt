@@ -1,0 +1,4 @@
+{
+  "Pfad":"pfad",
+  "Config":{config}
+}

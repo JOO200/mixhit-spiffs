@@ -1,0 +1,6 @@
+{
+  "configs":[
+    {"Name":"name1", "Pfad":"pfad1"},
+    {"Name":"name2", "Pfad":"pfad2"}
+    ]
+}

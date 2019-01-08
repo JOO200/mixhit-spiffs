@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MixHit - ESP32 - Webserver</title>
+    <link rel='stylesheet' href='../style/style.css'/>
+    <script src="../js/mixhit_config.js"></script>
+</head>
+<body class="row">
+    <header class="col-9 m1-col-12">
+        <h1>Konfiguration anpassen</h1>
+        <p>Liste aller verfügbaren Konfigurationsdateien auf dem ESP32 mit der Möglichkeit diese zu bearbeiten</p>
+    </header>
+    
+    <main>
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-group" id="listDatei">
+                    <li class="list-group-item list-group-item-info justify-content-between">
+                        <strong>Konfigurationsdateien</strong>
+                    </li>
+                    <li class="list-group-item list-item-flex"> Empty Name
+                        <button class="btn btn-margin-0 col-2 m2-col-3" onclick="bearbeiten_btn_click()">Please wait.</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row" id="main_config_bearbeiten">
+                <div class="col-12">
+                    <textarea name="config_textarea" id="configtextarea" oninput='this.style.height = "";this.style.height = this.scrollHeight + 3 + "px"'></textarea>
+                </div>
+                <button class="btn btn-margin-0 col-2 m2-col-3" id="btn_config_speichern" onclick="speichern_btn_click()">Speichern</button>
+            </div>
+    </main>
+
+    <footer class="col-12 footerstyle">
+        <p>Mix-Hit Wintersemester 2018/19</p>
+    </footer>
+</body>
